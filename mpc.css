@@ -5,9 +5,10 @@ body{
 #header{
     background-color: black;
     color: rgb(255, 0, 0);
-    margin: 1% 2% 1% 2%;
+    /* margin: 1% 2% 1% 2%; */
     padding: 1%;
    text-align: center;
+   width: 100vw
 }
 
 #imgs{
@@ -25,6 +26,9 @@ color: white;
 margin: 3% 20% 3% 20%;
 padding: 3%;
 text-align: center;
+border:gold 5px solid;
+border-radius: 25px;
+border-width: 10px;
 }
 
 #goombas1{
@@ -36,12 +40,15 @@ font-size: x-large;
     font-weight: 900;
 }
 
-#bobombs{
+#bobombsContainer{
 background-color: brown;
 color: white;
 margin: 3% 20% 3% 20%;
 padding: 3%;
 text-align: center;
+border:gold 5px solid;
+border-radius: 25px;
+border-width: 10px;
 }
 #bobombs1{
 font-size: x-large;
@@ -52,12 +59,15 @@ font-size: x-large;
     font-weight: 900;
 }
 
-#cheepcheep{
+#cheepcheepContainer{
 background-color: rgb(201, 133, 102);
 color: white;
 margin: 3% 20% 3% 20%;
 padding: 3%;
 text-align: center;
+border:gold 5px solid;
+border-radius: 25px;
+border-width: 10px;
 }
 #cheepcheep1{
 font-size: x-large;
@@ -68,14 +78,14 @@ font-size: x-large;
     font-weight: 900;
 }
 
-#calc{
+#calcContainer{
     background-color: rgb(70, 66, 66);
     text-align: center;
     margin: 3% 20% 3% 20%;
-    padding: 1%;
+    padding: 2%;
 }
-#subbutton{
-    background-color: chartreuse;
+#subButton{
+    background-color: gold;
 }
 
 #clearGoombasButton{
@@ -90,6 +100,8 @@ font-size: x-large;
 
 #totalCost{
     background-color: gold;
+    border-radius: 10px;
+    border-width: dashed black 3px;
 }
 
 footer{
@@ -99,4 +111,5 @@ footer{
     text-align: center;
     margin: 1% 2% 1% 2%;
     padding: 1%;
+    width: 100vw;
 }
